@@ -1,0 +1,14 @@
+-- TABLE
+CREATE TABLE cliente (
+    id integer primary key autoincrement not null, 
+    nome varchar(80) not null, 
+    email varchar(40) not null,
+    telefone int);
+CREATE TABLE sqlite_sequence(name,seq);
+ 
+-- INDEX
+ 
+-- TRIGGER
+ 
+-- VIEW
+ 
